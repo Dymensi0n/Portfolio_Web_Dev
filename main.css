@@ -1,0 +1,74 @@
+/* The main css style sheet for my portfolio site */
+.Header {
+  font-family: Tahoma, Trebuchet;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.Header_Title {
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+
+.Header_Subtitle {
+  font-size: 16px;
+}
+
+.Header_Logo {
+  width: 380px;
+  margin: 0;
+  padding: 10px, 0;
+}
+/* This is a container that has a rectangle shape (a "line" in this case) centered and responsive to design*/
+.rectContainer {
+  margin: 0, auto;
+  width: 100%;
+}
+
+.rectangle {
+  width: 100%;
+  height: 2px;
+  background: #528fb7;
+}
+
+.body_photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.thumbnail_01 {
+margin-left: auto;
+margin-right: 20px;
+padding: 0px, 10px;
+width: 80px;
+
+}
+
+.Proj_Title {
+  font-family: Tahoma, Trebuchet;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.List_Item {
+  font-family: Tahoma, Trebuchet;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.projects {
+  display: grid;
+  font-size: 18px;
+  font-family: inherit;
+  padding: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}

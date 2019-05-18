@@ -1,0 +1,86 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 160px) {
+.Header {
+  text-align: center;
+}
+  .Header_Logo {
+    width: 90%;
+    margin: 0;
+  }
+  .body {
+    margin: auto;
+  }
+  .Proj_Title {
+    text-align: center;
+    padding: 0px;
+  }
+}
+  @media screen and (min-width: 500px) {
+    .Header {
+      text-align: left;
+    }
+    .Header_Logo {
+      width: 380px;
+      margin: 0;
+    }
+    .body {
+      margin: auto;
+    }
+    .Proj_Title {
+      text-align: left;
+      padding-top: 0px;
+      padding-left: 40px;
+    }
+    .thumbnail_01 {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 0px, 0px;
+    width: 120px;
+    float: left;
+}
+
+.projects {
+  padding-bottom: 160px;
+}
+p {
+  padding-bottom: 60px;
+}
+
+  @media screen and (min-width: 768px) {
+    .Header {
+      text-align: left;
+    }
+    .Header_Logo {
+      width: 380px;
+      margin: 0;
+      padding: 10px, 0px;
+    }
+    .body {
+      margin: auto;
+    }
+    .Proj_Title {
+      text-align: left;
+      padding-left: : 80px;
+    }
+    .thumbnail_01 {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 80px, 40px;
+    width: 160px;
+    float: left;
+  }
+  .projects {
+    padding: 10px;
+  }
+  p{
+    padding-right: 0px;
+    padding-bottom: 200px;
+  }
+}
